@@ -16,7 +16,7 @@ public class SecondActivity extends AppCompatActivity {
         float getRating = bundle.getFloat("numStars");
       //  float getRating= caller.getFloatExtra("numStars",0);
         TextView text=(TextView)findViewById(R.id.textView2);
-        text.setText("YO YO YO only "+getRating+" for LVK?");
+        text.setText("YO YO YO hello  only "+getRating+" for LVK?");
 
     }
 }
